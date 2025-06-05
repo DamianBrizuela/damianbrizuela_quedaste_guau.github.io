@@ -3,8 +3,11 @@
     --nav_hover: #f8f67e;
     --color-fondo: #fffaf7;
     --background-bottom: #f7f7f7;
+    --service-icons:  #ff0000;
     --color-texto: #333333;
-    --color-acento: #f8d57e;
+    --appointment-button-back: #ff9800;
+    --appointment-button-text: #fff;
+    /* --appointment-button-back: #ff9800; */
 }
 
 * {
@@ -54,8 +57,8 @@ body {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    background-color: #ff9800;
-    color: white;
+    background-color: var(--appointment-button-back);
+    color: var(--appointment-button-text);
     border: none;
     text-decoration: none;
     font-weight: bold;
@@ -85,8 +88,12 @@ body {
 
 .servicio-card i {
     font-size: 2rem;
-    color: #ff0000;
+    color: var(--service-icons);
     margin-bottom: 0.5rem;
+}
+
+.services-align {
+    text-align-last: center;
 }
 
 .contacto {
