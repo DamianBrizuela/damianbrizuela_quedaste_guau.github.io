@@ -1,0 +1,167 @@
+:root {
+    --banner_header_footer: #f8d57e;
+    --color-fondo: #fffaf7;
+    --color-texto: #333333;
+    --color-acento: #f8d57e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #fffaf7;
+    color: --color-texto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: var(--banner_header_footer);
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #ffeecb;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.servicios {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.servicio-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.servicio-card {
+    width: 250px;
+    padding: 1rem;
+    /* background-color: #f5f5f5; */
+    border-radius: 10px;
+}
+
+.servicio-card i {
+    font-size: 2rem;
+    color: #ff0000;
+    margin-bottom: 0.5rem;
+}
+
+.contacto {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: var(--banner_header_footer);
+    padding: 15px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 0.5rem;
+    color: --color-texto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 10px 0;
+    /* margen superior e inferior */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* nav {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+} */
+
+.nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+/* Responsive: en pantallas pequeñas ocupa 100% */
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        margin: 10px 0;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quedaste Guau</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 10px 0;
+            /* margen superior e inferior */
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header,
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .back {
+            background-image: url('../../public/images/background.jpg');
+            background-size: cover;
+        }
+
+        .parragraph {
+            background-color: #ffffffd3;
+            /* color: white; */
+            padding: 10px;
+            /* text-align: center; */
+        }
+
+
+        /* Responsive: en pantallas pequeñas ocupa 100% */
+        @media (max-width: 768px) {
+            .wrapper {
+                width: 100%;
+                margin: 10px 0;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Quedaste Guau - grooming</h1>
+        </header>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+
+        <main class="back">
+            <h2>Contenido principal</h2>
+            <div class="parragraph">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien in dapibus facilisis,
+                    justo magna fermentum elit, nec
+                    tincidunt urna sapien nec nulla. Morbi tincidunt, metus ut fringilla dignissim, lorem elit malesuada
+                    erat, nec convallis elit purus
+                    a justo. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                    cubilia curae; In ac sem nec justo
+                    efficitur vestibulum. Phasellus dignissim, elit non rhoncus porttitor, erat nunc faucibus libero, ut
+                    tempor risus justo et augue.
+                <p>
+                    Curabitur ac felis ac libero pulvinar egestas. Integer congue ipsum sed magna interdum, in varius
+                    mauris iaculis. Suspendisse ac
+                    pretium diam. Mauris fringilla nunc at neque sagittis, at convallis odio congue. Vestibulum eget sem
+                    erat. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean sit amet purus et
+                    neque faucibus tincidunt a non ligula.
+                    Aliquam erat volutpat. Sed fermentum, nunc a lobortis ultrices, magna leo facilisis orci, non porta
+                    libero orci ut velit.
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 webdesign - grooming</p>
+        </footer>
+    </div>
+</body>
+
+</html>
