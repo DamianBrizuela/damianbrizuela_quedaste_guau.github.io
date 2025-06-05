@@ -151,6 +151,12 @@ footer {
     color: var(--color-texto);
 }
 
+.paw-logo {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    padding-left: 0.3rem;
+}
 
 
 /* Responsive: en pantallas pequeñas ocupa 100% */
